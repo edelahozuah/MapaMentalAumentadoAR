@@ -9,4 +9,4 @@
 		- $Size(PDU_{transport}) = Size(Header_{transport}) + Size(SDU_{application}) \leq MTU - Size(Header_{network})$
 		- $Size(SDU_{application}) \leq MTU - Size(Header_{network}) - Size(Header_{transport})$
 - In some cases, the transport layer offers a *segmentation* service to the application layer, which means that the latter can send messages of any length, and it is the transport layer that *segments* or divides the message into pieces that satisfy the last inequality.
-- Therefore, segmentation is {{the process by which the transport layer segments application layer messages to ensure that the maximum frame size imposed by the [[MTU]] is respected.}}
+- Therefore, segmentation is {{the process by which the transport layer segments application layer messages to ensure that the maximum packet size imposed by the link [[MTU]] (the maximum frame payload) is respected.}}
