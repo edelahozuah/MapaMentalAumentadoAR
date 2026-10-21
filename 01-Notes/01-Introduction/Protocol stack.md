@@ -1,0 +1,4 @@
+#flashcards/intro 
+#review2 
+
+- Once the number of layers to be used in a model has been defined (for example, seven layers in the [[OSI model]] and 4 or 5 layers (depending on the author) in the [[Internet model]]), one or more [[Protocol|protocols]] must be defined to implement the functions defined in each layer. The protocol stack is {{the set of protocols, one per layer, that carry out a particular end-to-end communication.}} For example, if the application layer HTTP protocol is used, it will normally use the TCP transport protocol, which will use the network layer IP protocol, which could use the WiFi subnet layer protocol (link + physical). In this case, the protocol stack would be HTTP/TCP/IP/WiFi.

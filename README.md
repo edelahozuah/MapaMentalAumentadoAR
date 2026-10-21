@@ -1,37 +1,40 @@
-# Mapa Mental Aumentado para Arquitectura de Redes
+# Augmented Mind Map for Computer Networks Architecture
 
-Vault de Obsidian con notas para seguir la asignatura Arquitectura de Redes I y Arquitectura de Redes de la Universidad de Alcalá. En el siguiente vídeo puedes ver cómo instalar y utilizar este Mapa Mental Aumentado https://youtu.be/P0n3VQC195w?si=qdwPfx607jwX_zTv
+> **About this translation:** this is an English translation of the original Spanish vault [Mapa Mental Aumentado para Arquitectura de Redes](https://github.com/JaimeGarciaReinoso/MapaMentalAumentadoAR) by Jaime García Reinoso, distributed under the same [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. Notes, folders, canvases and tags have been translated; figures and the linked videos remain in Spanish.
 
-También puedes encontrar parte del contenido (aunque puede que no actualizado) en https://mapamentalar1.web.uah.es/
+Obsidian vault with notes to follow the courses Arquitectura de Redes I and Arquitectura de Redes (Computer Networks Architecture) at the Universidad de Alcalá. In the following video (in Spanish) you can see how to install and use this Augmented Mind Map: https://youtu.be/P0n3VQC195w?si=qdwPfx607jwX_zTv
 
-![Canvas de TCP](03-Figuras/Screenshot-TCP-Canvas.png)
+You can also find part of the content (in Spanish, and possibly not up to date) at https://mapamentalar1.web.uah.es/
 
-## Instalación
-- Descarga e instala Obsidian [https://obsidian.md/], que es un gestor de notas libre para uso personal y sin ánimo de lucro.
-- Descarga el contenido del Mapa Mental Aumentado para Arquitectura de Redes I (llamado *vault* en obsidian) desde [https://github.com/JaimeGarciaReinoso/MapaMentalAumentadoAR]. Puedes pinchar en el botón verde que pone *<> Code* y seleccionar la opción de *Download ZIP*. También te lo puedes descargar usando el comando *git clone https://github.com/JaimeGarciaReinoso/MapaMentalAumentadoAR.git*
-- Una vez descomprimido el fichero zip, o descargado usando el comando *git*, puedes abrir Obsidian e importar el *vault* seleccionando Fichero -> Abrir vault . Luego selecciona *Abrir directorio como vault* y selecciona el directorio que acabas de descomprimir. Finalmente debes confiar en este *vault*, ya que se cargarán algunos plugins de los que hablaremos más adelante.
-- Puedes cambiar el idioma (Settings->General) y la apariencia/tema (Settings->Appearance).
+![TCP canvas](03-Figures/Screenshot-TCP-Canvas.png)
 
-## Estudiar con el Mapa Mental Aumentado
-- En Obsidian verás que hay varios directorios. Aunque puedes utilizar las notas que están en el directorio *01-Notas*, se recomienda utilizar los *canvas* que puedes encontrar en el directorio *02-Canvas*.
-- Dentro del directorio *02-Canvas* puedes encontrar el canvas *Principal*, que contiene elementos que enlazan al resto de canvas.
-- Busca siempre el icono que dice *Start here* para saber en qué punto debes comenzar a leer en el canvas. 
-- Las flechas que unen los elementos de los canvas indican el orden sugerido para continuar la lectura.
-- Para hacer zoom en una tarjeta específica selecciónala y pulsa las teclas "Shift+2". Para ver todas las tarjetas puedes pulsar las teclas "Shift+1".
-- Algunas notas contienen cadenas de texto encerradas entre dobles llaves \{\{\}\}. Esto indica que dicho contenido es muy importante, por lo que hay que estudiarlo detenidamente. Esta identificación de dobles llaves la utiliza el plugin de *Spaced Repetition* para el repaso de tarjetas [[README#Repaso de las tarjetas]].
+## Installation
+- Download and install Obsidian [https://obsidian.md/], a note manager that is free for personal and non-profit use.
+- Download the content of the Augmented Mind Map for Computer Networks Architecture I (called a *vault* in Obsidian) from the `english` branch [https://github.com/edelahozuah/MapaMentalAumentadoAR/tree/english]. Click the green *<> Code* button and select *Download ZIP*, or download it with the command *git clone -b english https://github.com/edelahozuah/MapaMentalAumentadoAR.git*
+- Once you have unzipped the file, or downloaded it with *git*, open Obsidian and import the *vault* by selecting File -> Open vault. Then select *Open folder as vault* and choose the folder you have just unzipped. Finally, you must trust this *vault*, since it will load some plugins that are described below.
+- You can change the language (Settings->General) and the appearance/theme (Settings->Appearance).
 
-## Repaso de las tarjetas
-- El *vault* incluye el plugin *Spaced Repetition* que permite repasar las notas estudiadas. A la izquierda de Obsidian verás un icono que parecen unas barajas (si no lo encuentras, presiona CMD+P o CTRL+P y busca Spaced Repetition). Si lo seleccionas, verás que se abre una ventana con una estructura jerárquica. Selecciona el mazo de preguntas que quieras estudiar/repasar.
-- Una vez seleccionado el mazo, te presentará notas de forma aleatoria en donde una parte de la misma estará oculta para que trates de recordar cuál es la respuesta correcta.
-- Cuando quieras avanzar presiona el botón de *Show Answer*. Te aparecerán tres botones para seleccionar si consideras que la pregunta era *Easy*, *Good* o *Hard*. Contesta con sinceridad, porque esto es importante para que el algoritmo se adapte a tus conocimientos para preguntarte lo que más te cueste recordar.
-- Hay muchas opciones: repasar sólo las tarjeta difíciles, repasar todas, etc. Puedes ver más información en el github del repositorio: https://github.com/st3v3nmw/obsidian-spaced-repetition
+## Studying with the Augmented Mind Map
+- In Obsidian you will see several folders. Although you can use the notes in the *01-Notes* folder, it is recommended to use the *canvases* in the *02-Canvas* folder.
+- Inside the *02-Canvas* folder you will find the *Main* canvas, which contains items linking to the rest of the canvases.
+- Always look for the *Start here* icon to know where to start reading in the canvas.
+- The arrows connecting the items in the canvases show the suggested reading order.
+- To zoom in on a specific card, select it and press "Shift+2". To see all the cards, press "Shift+1".
+- Some notes contain text enclosed in double curly braces \{\{\}\}. This means that the content is very important and must be studied carefully. The *Spaced Repetition* plugin uses these double curly braces to review the cards [[README#Reviewing the cards]].
 
-## Modificación y contribución
-- El material se publica para que sirva de base para estudiar la asignatura Arquitectura de Redes I, pero puedes ampliarlo, corregirlo y modificarlo para que se adapte a tu forma de estudiar. Puedes echarle un ojo a la [[LICENSE|licencia]] por si quieres distribuirlo o crear un material ampliado del mismo.
-- Si quieres contribuir, o reportar un problema, puedes hacerlo en el github del mapa mental ampliado de AR1 https://github.com/JaimeGarciaReinoso/MapaMentalAumentadoAR
+## Reviewing the cards
+- The *vault* includes the *Spaced Repetition* plugin, which lets you review the notes you have studied. On the left side of Obsidian you will see an icon that looks like a deck of cards (if you cannot find it, press CMD+P or CTRL+P and search for Spaced Repetition). If you select it, a window with a hierarchical structure will open. Select the deck of questions you want to study/review.
+- Once a deck is selected, it will show you notes at random with part of each note hidden, so that you try to recall the correct answer.
+- When you want to move on, press the *Show Answer* button. Three buttons will appear so you can rate the question as *Easy*, *Good* or *Hard*. Answer honestly, because this is what lets the algorithm adapt to your knowledge and ask you about what you find hardest to remember.
+- There are many options: review only the hard cards, review all of them, etc. You can find more information in the plugin's GitHub repository: https://github.com/st3v3nmw/obsidian-spaced-repetition
 
-## Ayúdanos a difundir este trabajo
-- Este proyecto se presentó a la convocatoria de Proyectos de Innovación Docente 2024 de la Universidad de Alcalá, resultando *no aprobado* ya que la comisión evaluadora consideró que "A juicio de la comisión, estas actividades no se consideran que sean de innovación docente". Aún así, el proyecto se ha realizado sin el apoyo de la UAH porque creemos que este mapa mental aumentado sí es un proyecto de innovación. Si tú tampoco estás de acuerdo con la comisión, te agradecería que les envíes un correo a [ideo@uah.es](mailto:ideo@uah.es) con un texto similar al siguiente:
-	- Asunto del correo: Apoyo al proyecto de innovación docente UAH/EV1535
-	- Contenido del correo: Después de ver el contenido del proyecto "Un Mapa Mental Aumentado para la asignatura Arquitectura de Redes I" con código UAH/EV1535, disponible en https://github.com/JaimeGarciaReinoso/MapaMentalAumentadoAR, y no aprobado en la convocatoria de Proyectos de Innovación Docente 2024 de la Universidad de Alcalá, considero que la comisión se equivocó en su juicio ya que, en mi opinión, este es un proyecto que representa una innovación con respecto al material disponible en la asignatura.
-- Y por supuesto, ¡¡¡comparte este proyecto con tus amigos/colegas/conocidos a los que les pueda resultar útil!!!
+## Modification and contribution
+- This material is published to serve as a basis for studying the course Arquitectura de Redes I, but you can extend, correct and modify it to suit your way of studying. Have a look at the [[LICENSE|license]] if you want to distribute it or create extended material based on it.
+- If you want to contribute to, or report a problem with, the original (Spanish) mind map, you can do so on its GitHub repository: https://github.com/JaimeGarciaReinoso/MapaMentalAumentadoAR
+
+## Help us spread this work
+- This project was submitted to the 2024 call for Teaching Innovation Projects of the Universidad de Alcalá and was *not approved*, since the evaluation committee considered that "In the committee's judgment, these activities are not considered to be teaching innovation". Even so, the project has been carried out without UAH support because we believe this augmented mind map is indeed an innovation project. If you also disagree with the committee, I would appreciate it if you sent an email to [ideo@uah.es](mailto:ideo@uah.es) with a text similar to the following:
+	- Email subject: Apoyo al proyecto de innovación docente UAH/EV1535 (Support for teaching innovation project UAH/EV1535)
+	- Email body: Después de ver el contenido del proyecto "Un Mapa Mental Aumentado para la asignatura Arquitectura de Redes I" con código UAH/EV1535, disponible en https://github.com/JaimeGarciaReinoso/MapaMentalAumentadoAR, y no aprobado en la convocatoria de Proyectos de Innovación Docente 2024 de la Universidad de Alcalá, considero que la comisión se equivocó en su juicio ya que, en mi opinión, este es un proyecto que representa una innovación con respecto al material disponible en la asignatura.
+		- (English: After reviewing the content of the project "An Augmented Mind Map for the course Arquitectura de Redes I", code UAH/EV1535, available at https://github.com/JaimeGarciaReinoso/MapaMentalAumentadoAR, which was not approved in the 2024 call for Teaching Innovation Projects of the Universidad de Alcalá, I believe the committee was mistaken in its judgment since, in my opinion, this project represents an innovation with respect to the material available for the course.)
+- And of course, share this project with any friends/colleagues/acquaintances who may find it useful!!!
